@@ -1,0 +1,11 @@
+Sections:
+section .text (attr=<acrx> align=1):
+       0: data(2): a9 ff 
+       2: data(3): 8d 00 7f 
+       5: data(2): a9 ff 
+       7: data(3): 8d ff 7f 
+       a: data(3): 4c 00 80 
+Symbols:
+__RPTCNT EXPR(-1=0xffff) INTERNAL 
+__VASM EXPR(0=0x0) INTERNAL 
+__UNIXFS EXPR(0=0x0) INTERNAL 
