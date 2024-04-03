@@ -1,4 +1,4 @@
-./vbcc/bin/vasm6502_oldstyle -Fbin main.s
-cp a.out out.hex
+./vbcc/bin/vasm6502_oldstyle -Fbin -dotdir main.s
+cp a.out out.rom
 rm a.out
-python3 bin-to-logisim.py out.hex rom.bin
+python3 bin-to-hex.py -logisim
