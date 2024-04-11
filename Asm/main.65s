@@ -1,10 +1,10 @@
- .org $8000
+ .org $F000
 loop:
  lda #$ff
- sta $7F00
+ sta $EF00
      
  lda #$ff
- sta $7FFF
+ sta $EFFF
  
  jmp loop
 
